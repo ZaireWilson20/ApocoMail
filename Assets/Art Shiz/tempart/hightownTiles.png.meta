@@ -1,0 +1,1307 @@
+fileFormatVersion: 2
+guid: 661533e10cb30af4abf49584e42a6ee0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4865370682188326758
+    second: hightownTiles_0
+  - first:
+      213: -2306434626429425572
+    second: hightownTiles_1
+  - first:
+      213: 6321513670889164502
+    second: hightownTiles_2
+  - first:
+      213: 2095147533432612490
+    second: hightownTiles_3
+  - first:
+      213: 7012826186802291827
+    second: hightownTiles_4
+  - first:
+      213: 963423962781567314
+    second: hightownTiles_5
+  - first:
+      213: 346571140859098158
+    second: hightownTiles_6
+  - first:
+      213: -3875342279659937937
+    second: hightownTiles_7
+  - first:
+      213: -4763868405833851982
+    second: hightownTiles_8
+  - first:
+      213: 293196863129822468
+    second: hightownTiles_9
+  - first:
+      213: 982497997608270407
+    second: hightownTiles_10
+  - first:
+      213: -6875034545547446741
+    second: hightownTiles_11
+  - first:
+      213: -2688220579374832614
+    second: hightownTiles_12
+  - first:
+      213: 5255615908883907632
+    second: hightownTiles_13
+  - first:
+      213: 7085766558214960624
+    second: hightownTiles_14
+  - first:
+      213: -6480823480763968982
+    second: hightownTiles_15
+  - first:
+      213: 6970921699350049696
+    second: hightownTiles_16
+  - first:
+      213: -143700592749463836
+    second: hightownTiles_17
+  - first:
+      213: -9022551472078421329
+    second: hightownTiles_18
+  - first:
+      213: -5037657232634008293
+    second: hightownTiles_19
+  - first:
+      213: 985768073514246369
+    second: hightownTiles_20
+  - first:
+      213: 2811544258991387900
+    second: hightownTiles_21
+  - first:
+      213: 923791196880718365
+    second: hightownTiles_22
+  - first:
+      213: -6086067413729892647
+    second: hightownTiles_23
+  - first:
+      213: 791564190822880527
+    second: hightownTiles_24
+  - first:
+      213: -5209218946969848353
+    second: hightownTiles_25
+  - first:
+      213: 2075491311010287997
+    second: hightownTiles_26
+  - first:
+      213: -8887505225495045067
+    second: hightownTiles_27
+  - first:
+      213: 690008492809792664
+    second: hightownTiles_28
+  - first:
+      213: 3945770681092073883
+    second: hightownTiles_29
+  - first:
+      213: -8083659599805877963
+    second: hightownTiles_30
+  - first:
+      213: -156769782953342567
+    second: hightownTiles_31
+  - first:
+      213: 5384464253026270921
+    second: hightownTiles_32
+  - first:
+      213: -2724299549117479999
+    second: hightownTiles_33
+  - first:
+      213: 21434297686030599
+    second: hightownTiles_34
+  - first:
+      213: -5774948026388994962
+    second: hightownTiles_35
+  - first:
+      213: -4725110445971464494
+    second: hightownTiles_36
+  - first:
+      213: -1112789856091277936
+    second: hightownTiles_37
+  - first:
+      213: 6086451789552978319
+    second: hightownTiles_38
+  - first:
+      213: -165572044501371210
+    second: hightownTiles_39
+  - first:
+      213: -7138520300949941846
+    second: hightownTiles_40
+  - first:
+      213: 2153539412452065179
+    second: hightownTiles_41
+  - first:
+      213: -7779533678473429908
+    second: hightownTiles_42
+  - first:
+      213: -1474982899170305445
+    second: hightownTiles_43
+  - first:
+      213: 2442875591783232783
+    second: hightownTiles_44
+  - first:
+      213: 4494307040575736091
+    second: hightownTiles_45
+  - first:
+      213: 1792236924374345741
+    second: hightownTiles_46
+  - first:
+      213: -4725344510850622915
+    second: hightownTiles_47
+  - first:
+      213: 7681065563551426160
+    second: hightownTiles_48
+  - first:
+      213: 8154064719731088507
+    second: hightownTiles_49
+  - first:
+      213: 3830455118642629965
+    second: hightownTiles_50
+  - first:
+      213: 2325588755237913604
+    second: hightownTiles_51
+  - first:
+      213: 6724959372446035528
+    second: hightownTiles_52
+  - first:
+      213: -5425414699789990751
+    second: hightownTiles_53
+  - first:
+      213: 563674955717654495
+    second: hightownTiles_54
+  - first:
+      213: 5057974496975768858
+    second: hightownTiles_55
+  - first:
+      213: -8389353807767204701
+    second: hightownTiles_56
+  - first:
+      213: -9020288847789538394
+    second: hightownTiles_57
+  - first:
+      213: 2785941509260794110
+    second: hightownTiles_58
+  - first:
+      213: 9116916943698210076
+    second: hightownTiles_59
+  - first:
+      213: 2808015077572474304
+    second: hightownTiles_60
+  - first:
+      213: -5507763165256346822
+    second: hightownTiles_61
+  - first:
+      213: -4053183439451117134
+    second: hightownTiles_62
+  - first:
+      213: 4019928611364131651
+    second: hightownTiles_63
+  - first:
+      213: 2650916797314890657
+    second: hightownTiles_64
+  - first:
+      213: -3903707172008630357
+    second: hightownTiles_65
+  - first:
+      213: -550386561191863948
+    second: hightownTiles_66
+  - first:
+      213: -5525381029298197695
+    second: hightownTiles_67
+  - first:
+      213: 1388769859772707754
+    second: hightownTiles_68
+  - first:
+      213: 5456554905093434702
+    second: hightownTiles_69
+  - first:
+      213: 6408633290653530672
+    second: hightownTiles_70
+  - first:
+      213: 4242048843934669630
+    second: hightownTiles_71
+  - first:
+      213: -780674562721684604
+    second: hightownTiles_72
+  - first:
+      213: 1810211019661060527
+    second: hightownTiles_73
+  - first:
+      213: -5544650544793152795
+    second: hightownTiles_74
+  - first:
+      213: -6877004823566150269
+    second: hightownTiles_75
+  - first:
+      213: -1008907463416588294
+    second: hightownTiles_76
+  - first:
+      213: -7620807544993971090
+    second: hightownTiles_77
+  - first:
+      213: 404092049913996777
+    second: hightownTiles_78
+  - first:
+      213: -5052521140111667801
+    second: hightownTiles_79
+  - first:
+      213: -1822084732283730194
+    second: hightownTiles_80
+  - first:
+      213: -7708472378042517711
+    second: hightownTiles_81
+  - first:
+      213: -6866022632074529021
+    second: hightownTiles_82
+  - first:
+      213: -6714167297238054066
+    second: hightownTiles_83
+  - first:
+      213: 2690679343138422844
+    second: hightownTiles_84
+  - first:
+      213: -7777630386439234954
+    second: hightownTiles_85
+  - first:
+      213: 2217162677022972495
+    second: hightownTiles_86
+  - first:
+      213: -7810129647423505720
+    second: hightownTiles_87
+  - first:
+      213: -6127003511712475352
+    second: hightownTiles_88
+  - first:
+      213: -3360837915823952155
+    second: hightownTiles_89
+  - first:
+      213: 2863495068905075153
+    second: hightownTiles_90
+  - first:
+      213: 5812803307100176371
+    second: hightownTiles_91
+  - first:
+      213: -6744950832028166556
+    second: hightownTiles_92
+  - first:
+      213: 1664903515661309983
+    second: hightownTiles_93
+  - first:
+      213: 5488070969449879230
+    second: hightownTiles_94
+  - first:
+      213: -1258904348109768029
+    second: hightownTiles_95
+  - first:
+      213: 6444604719548040163
+    second: hightownTiles_96
+  - first:
+      213: 6313837826286500000
+    second: hightownTiles_97
+  - first:
+      213: -603881552779203490
+    second: hightownTiles_98
+  - first:
+      213: -2154377964979224886
+    second: hightownTiles_99
+  - first:
+      213: 7433037020921884277
+    second: hightownTiles_100
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hightownTiles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a989093742bba7cb0800000000000000
+      internalID: -4865370682188326758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 6500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5863026de5edffd0800000000000000
+      internalID: -2306434626429425572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 6500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6decf1cd0378ab750800000000000000
+      internalID: 6321513670889164502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_4
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 6500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37468e7e240925160800000000000000
+      internalID: 7012826186802291827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_5
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 6500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259c1bd5df4ce5d00800000000000000
+      internalID: 963423962781567314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_16
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 6000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a372de1a50bdb060800000000000000
+      internalID: 6970921699350049696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_17
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 6000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6b72f7219710ef0800000000000000
+      internalID: -143700592749463836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_21
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 6000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4787b7b9c940720800000000000000
+      internalID: 2811544258991387900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_26
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 5500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d719d27d950adcc10800000000000000
+      internalID: 2075491311010287997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_27
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 5500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c90fed51d39a480800000000000000
+      internalID: -8887505225495045067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_28
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c2ee18117639900800000000000000
+      internalID: 690008492809792664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_32
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce7b63c5b579ba40800000000000000
+      internalID: 5384464253026270921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_33
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 5500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c388197ef7513ad0800000000000000
+      internalID: -2724299549117479999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_34
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 5500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709f59351662c4000800000000000000
+      internalID: 21434297686030599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_35
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 5500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64adb2fd534bdfa0800000000000000
+      internalID: -5774948026388994962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_38
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 5000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8988dab7ab677450800000000000000
+      internalID: 6086451789552978319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_39
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 5000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6b2ce4a15c3bdf0800000000000000
+      internalID: -165572044501371210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_40
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1d6f79b91eeec90800000000000000
+      internalID: -7138520300949941846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_42
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c3760565b890490800000000000000
+      internalID: -7779533678473429908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_46
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 5000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08ebaeacfd4fd810800000000000000
+      internalID: 1792236924374345741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_48
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 5000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076e7fb1f60a89a60800000000000000
+      internalID: 7681065563551426160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_50
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 4500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d45c2c2a2882530800000000000000
+      internalID: 3830455118642629965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_51
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 4500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4044991c6a6264020800000000000000
+      internalID: 2325588755237913604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_52
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e649b3bead35d50800000000000000
+      internalID: 6724959372446035528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_70
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 250, y: -240}
+        - {x: 250, y: -201}
+        - {x: 21, y: -193}
+        - {x: 22, y: 250}
+        - {x: -28.076202, y: 250}
+        - {x: -18, y: -196}
+        - {x: -250, y: -191}
+        - {x: -250, y: -239}
+        - {x: -26, y: -238}
+        - {x: 26.6113, y: -235.10739}
+        - {x: 25, y: -235}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a7521060a00f850800000000000000
+      internalID: 6408633290653530672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_71
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b159eb2f8ceda30800000000000000
+      internalID: 4242048843934669630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_72
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4836ac31f9c7a25f0800000000000000
+      internalID: -780674562721684604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_73
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9256bd4592f1910800000000000000
+      internalID: 1810211019661060527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_74
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e29de1d4b17d03b0800000000000000
+      internalID: -5544650544793152795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_77
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6484032ae37d3690800000000000000
+      internalID: -7620807544993971090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_78
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -214}
+        - {x: -15, y: -236}
+        - {x: 249, y: -237}
+        - {x: 250, y: -212}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5eea3149f9b9500800000000000000
+      internalID: 404092049913996777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_79
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 14, y: -205}
+        - {x: -250, y: -207}
+        - {x: -249, y: -239}
+        - {x: 14, y: -237}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad0e7fdac6d1e9b0800000000000000
+      internalID: -5052521140111667801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_80
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6c09df697a6b6e0800000000000000
+      internalID: -1822084732283730194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_81
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1377dd1a631060590800000000000000
+      internalID: -7708472378042517711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_83
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bc4959a6c72d2a0800000000000000
+      internalID: -6714167297238054066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_84
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c304f345b96375520800000000000000
+      internalID: 2690679343138422844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_85
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a51060f5e401490800000000000000
+      internalID: -7777630386439234954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_86
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 250, y: -173}
+        - {x: -249, y: -176}
+        - {x: -250, y: -235}
+        - {x: 249, y: -234}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a553d25b1f4ce10800000000000000
+      internalID: 2217162677022972495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_87
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 24, y: -199}
+        - {x: -250, y: -201}
+        - {x: -250, y: -248}
+        - {x: 27.099669, y: -250}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca339b2778dc9390800000000000000
+      internalID: -7810129647423505720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_89
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee26a7d8b7eb51d0800000000000000
+      internalID: -3360837915823952155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hightownTiles_90
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d17b2ef79d2db720800000000000000
+      internalID: 2863495068905075153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
