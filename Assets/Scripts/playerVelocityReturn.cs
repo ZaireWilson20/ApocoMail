@@ -23,7 +23,7 @@ public class playerVelocityReturn : MonoBehaviour
     {
         xMove = rb.velocity.x;
         yMove = rb.velocity.y;
-        Debug.Log(yMove);
+        //Debug.Log(yMove);
         animator.SetFloat("XMovement", xMove);
         animator.SetFloat("YMovement", yMove);
         if(  xMove > 0)
