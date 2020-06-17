@@ -5,6 +5,7 @@ using UnityEngine;
 public class InventoryDrop : MonoBehaviour
 {
     [SerializeField] private Animator _inventoryDrop;
+    
     void OnMouseOver(){
         _inventoryDrop.SetBool("hovering", true);
         print("hewwo");
