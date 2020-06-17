@@ -444,7 +444,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 724a7cf420208cd4793dca8badf6a1cd, type: 3}
     m_FontSize: 103
     m_FontStyle: 0
     m_BestFit: 0
@@ -1087,7 +1087,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 724a7cf420208cd4793dca8badf6a1cd, type: 3}
     m_FontSize: 103
     m_FontStyle: 0
     m_BestFit: 0
@@ -1727,7 +1727,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 724a7cf420208cd4793dca8badf6a1cd, type: 3}
     m_FontSize: 103
     m_FontStyle: 0
     m_BestFit: 0
@@ -2523,7 +2523,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 724a7cf420208cd4793dca8badf6a1cd, type: 3}
     m_FontSize: 121
     m_FontStyle: 0
     m_BestFit: 0
@@ -3045,7 +3045,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 724a7cf420208cd4793dca8badf6a1cd, type: 3}
     m_FontSize: 103
     m_FontStyle: 0
     m_BestFit: 0
@@ -3266,7 +3266,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 724a7cf420208cd4793dca8badf6a1cd, type: 3}
     m_FontSize: 103
     m_FontStyle: 0
     m_BestFit: 0
@@ -4213,7 +4213,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 724a7cf420208cd4793dca8badf6a1cd, type: 3}
     m_FontSize: 103
     m_FontStyle: 0
     m_BestFit: 0
@@ -4290,7 +4290,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 724a7cf420208cd4793dca8badf6a1cd, type: 3}
     m_FontSize: 121
     m_FontStyle: 0
     m_BestFit: 0
@@ -4564,7 +4564,7 @@ RectTransform:
   m_LocalScale: {x: 0.04425688, y: 0.044256877, z: 0.044256885}
   m_Children: []
   m_Father: {fileID: 2123521449}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4587,7 +4587,7 @@ MonoBehaviour:
   - penis
   - butt
   - asshole
-  _index: 0
+  index: 0
 --- !u!114 &1266946642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4607,8 +4607,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 66
+    m_Font: {fileID: 12800000, guid: 724a7cf420208cd4793dca8badf6a1cd, type: 3}
+    m_FontSize: 97
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -17382,7 +17382,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1529832142
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17549,7 +17549,7 @@ RectTransform:
   m_LocalScale: {x: 0.04425688, y: 0.044256877, z: 0.044256885}
   m_Children: []
   m_Father: {fileID: 2123521449}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -17572,7 +17572,7 @@ MonoBehaviour:
   - penis
   - butt
   - asshole
-  _index: 0
+  index: 0
 --- !u!114 &1547381665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17592,8 +17592,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 66
+    m_Font: {fileID: 12800000, guid: 724a7cf420208cd4793dca8badf6a1cd, type: 3}
+    m_FontSize: 97
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -18041,7 +18041,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 724a7cf420208cd4793dca8badf6a1cd, type: 3}
     m_FontSize: 103
     m_FontStyle: 0
     m_BestFit: 0
@@ -18093,7 +18093,7 @@ RectTransform:
   m_LocalScale: {x: 0.04425688, y: 0.044256877, z: 0.044256885}
   m_Children: []
   m_Father: {fileID: 2123521449}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -18116,7 +18116,7 @@ MonoBehaviour:
   - penis
   - butt
   - asshole
-  _index: 0
+  index: 0
 --- !u!114 &1695356834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18136,8 +18136,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 66
+    m_Font: {fileID: 12800000, guid: 724a7cf420208cd4793dca8badf6a1cd, type: 3}
+    m_FontSize: 97
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -18261,7 +18261,7 @@ RectTransform:
   m_GameObject: {fileID: 1736297050}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.12614098, y: 0.12614097, z: 0.126141}
+  m_LocalScale: {x: 0.153892, y: 0.15389198, z: 0.15389203}
   m_Children:
   - {fileID: 1237262236}
   m_Father: {fileID: 2123521449}
@@ -18512,7 +18512,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 724a7cf420208cd4793dca8badf6a1cd, type: 3}
     m_FontSize: 103
     m_FontStyle: 0
     m_BestFit: 0
@@ -18777,7 +18777,7 @@ RectTransform:
   m_LocalScale: {x: 0.044256877, y: 0.044256873, z: 0.044256892}
   m_Children: []
   m_Father: {fileID: 2123521449}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -18803,8 +18803,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 121
+    m_Font: {fileID: 12800000, guid: 724a7cf420208cd4793dca8badf6a1cd, type: 3}
+    m_FontSize: 143
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 7
@@ -18882,7 +18882,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 724a7cf420208cd4793dca8badf6a1cd, type: 3}
     m_FontSize: 121
     m_FontStyle: 0
     m_BestFit: 0
@@ -18935,10 +18935,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.9254093, y: 1.5898057, z: 1.5500607}
   m_Children:
+  - {fileID: 2032735005}
   - {fileID: 1266946640}
   - {fileID: 1547381663}
   - {fileID: 1695356832}
-  - {fileID: 2032735005}
   - {fileID: 1736297051}
   m_Father: {fileID: 1529832142}
   m_RootOrder: 0
