@@ -1,0 +1,53 @@
+title: StartBub
+tags: 
+colorID: 0
+position: 593,200
+---
+Eep!
+
+<<if $firstB is true>>[[Next|2Bub]]
+<<else>>[[Next|Bubend]]
+<<endif>>
+===
+title: Bubend
+tags: 
+colorID: 0
+position: 244,360
+---
+...
+<<set $firstB to true>>
+===
+title: 2Bub
+tags: 
+colorID: 0
+position: 590,459
+---
+Oh, you're less scary this time. 
+
+[[Next|3Bub]]
+===
+title: 3Bub
+tags: 
+colorID: 0
+position: 591,724
+---
+I-I'm sorry for shouting at you. Who are you?
+
+[[I'm the new mailman!|4Bub]]
+===
+title: 4Bub
+tags: 
+colorID: 0
+position: 594,983
+---
+We-ll, its very nice to meet you. If you need me, I'll just be here... or over there... or over there... or over there....
+
+[[Next|5Bub]]
+===
+title: 5Bub
+tags: 
+colorID: 0
+position: 850,993
+---
+b-But if you... see any fireflies, could you bring some to me-e? 
+===
