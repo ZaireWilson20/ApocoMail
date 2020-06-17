@@ -1,0 +1,54 @@
+title: StartBub
+tags: 
+colorID: 0
+position: 540,260
+---
+Eep!
+
+<<if $firstB is true>>[[Next|2Bub]]
+<<elif $B1want is true>>[[Next|WIP]]
+<<else>>[[Next|endBub]]
+<<endif>>
+===
+title: endBub
+tags: 
+colorID: 0
+position: 282,495
+---
+...
+<<set $firstB is true>>
+===
+title: 2Bub
+tags: 
+colorID: 0
+position: 594,529
+---
+Oh, you're less scary this time.
+
+<<if $explain1 is true>>[[Next|BubIdle1]]
+<<else>>[[Next|3Bub]]
+<<endif>>
+===
+title: 3Bub
+tags: 
+colorID: 0
+position: 898,526
+---
+There's more to my story, but for now I need fireflies. Could you get me some? I want to make a firefly dance party in my bubble tonight.
+<<set $explain1 to true>>
+===
+title: BubIdle1
+tags: 
+colorID: 0
+position: 590,797
+---
+Hey... did you find any fireflies yet? If that's ok... I can loan you some music if you bring me some...
+===
+title: WIP
+tags: 
+colorID: 0
+position: 940,96
+---
+Work in Progress box! You probably found something for me, thanks!
+
+===
