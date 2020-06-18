@@ -28,11 +28,11 @@ public class playerVelocityReturn : MonoBehaviour
         animator.SetFloat("YMovement", yMove);
         if(  xMove > 0)
         {
-            sr.flipX = true;
+            sr.flipX = false;
         }
         else if ( xMove < 0)
         {
-            sr.flipX = false;
+            sr.flipX = true;
         }
 
 
