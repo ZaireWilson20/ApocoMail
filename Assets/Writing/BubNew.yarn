@@ -1,0 +1,35 @@
+title: Start
+tags: 
+colorID: 0
+position: 668,301
+---
+POOPEDOOP!
+<<if $firstB is true>>
+	Oh, sorry, you startled me.
+<<else>>
+	You really gotta stop creeping up on me like that. 
+    [[ Bub.SendOff ]] 
+<<endif>>
+I-i'm sorry for shoutin' at you. 
+Anyways, word on the street is that you're the new mailman around town!
+Well, it's very nice to meet ya! 
+If you need me, I'll just be here... or over there... or over there... or over there....
+b-But if you... see any fireflies, could you bring some to me-e?
+<<set $firstB to false>>
+===
+title: Bub.SendOff
+tags: 
+colorID: 0
+position: 968,255
+---
+You found my fire flies yet?
+<<CheckInventory Player FireFlies>>
+===
+title: Bub.Received
+tags: 
+colorID: 0
+position: 604,552
+---
+THANKS MY GUY!
+I'm bout to get super busy with these fireflies :)
+===

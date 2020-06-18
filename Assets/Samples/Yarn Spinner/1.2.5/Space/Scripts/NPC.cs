@@ -36,6 +36,23 @@ namespace Yarn.Unity.Example {
 
         public string talkToNode = "";
 
+        public string itemRecivedNode = "";
+
+        public int inventoryIndex; 
+        [SerializeField]
+        private GameObject itemToGive;
+        [SerializeField]
+        private GameObject itemToRecieve;
+
+        private bool visited;
+        public quest_type currentQuestType; 
+
+        public enum quest_type
+        {
+            LOOKING_FOR_ITEM, 
+            GIVING_ITEM
+        }
+
         [Header("Optional")]
         public YarnProgram scriptToLoad;
 
@@ -44,6 +61,26 @@ namespace Yarn.Unity.Example {
                 DialogueRunner dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
                 dialogueRunner.Add(scriptToLoad);                
             }
+        }
+
+        public void TriggerVisit()
+        {
+            visited = true; 
+        }
+
+        public bool HasBeenVisited()
+        {
+            return visited;
+        }
+
+        public GameObject GetItemToReceive()
+        {
+            return itemToRecieve;
+        }
+
+        public GameObject GetItemToGive()
+        {
+            return itemToGive; 
         }
     }
 
