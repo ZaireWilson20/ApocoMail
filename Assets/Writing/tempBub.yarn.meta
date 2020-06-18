@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 0334738e33afb804088ca1e3a470c251
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - tempBub-Start-0
+  - tempBub-Start-1
+  - tempBub-Start-2
+  - tempBub-Start-3
+  - tempBub-Start-4
+  - tempBub-Start-5
+  - tempBub-Start-6
+  - tempBub-Start-7
+  - tempBub-Bub.SendOff-8
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 0334738e33afb804088ca1e3a470c251,
+    type: 3}
+  localizations: []
