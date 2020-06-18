@@ -1,6 +1,6 @@
 title: StartBub
 tags: 
-colorID: 0
+colorID: 6
 position: 833,184
 ---
 Eep!
@@ -263,4 +263,22 @@ Sssscrumptioussssss. Thank you ssso much. What to give, what to give...
 All I have are ssome sseassoning I ssscavenged. Here, I cannot ussse it. Apologiessss that it is not anything more.
 Now, to ssssssleep...
 <<set $SnakeEnd to true>>
+===
+title: MailStart
+tags: 
+colorID: 0
+position: -1050,912
+---
+Hey! Hey!
+<<if $endGame is true>>
+    You did it? You did it! You took care of every task given! Every request!
+    And now, to celebrate! A party! Some fun! To take care of you and everyone!
+<<elif $MailIdle is true>>
+    No rush, no rush! Plenty to still be done!
+<<else>>
+    Welcome to the job!
+    Applications? Nah! You fell through the roof, you're a mailman!	
+    Anyone can be a mailman! So get out there and see what needs deliverin'!
+    <<set $MailIdle to true>>
+<<endif>>
 ===
