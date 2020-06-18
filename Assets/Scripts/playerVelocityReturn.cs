@@ -24,8 +24,16 @@ public class playerVelocityReturn : MonoBehaviour
         xMove = rb.velocity.x;
         yMove = rb.velocity.y;
         //Debug.Log(yMove);
-        animator.SetFloat("XMovement", xMove);
-        animator.SetFloat("YMovement", yMove);
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("walksouth2") != true && 
+            animator.GetCurrentAnimatorStateInfo(0).IsName("walknorth2") != true)
+        {
+            animator.SetFloat("XMovement", xMove);
+        }
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("walkside2") != true && 
+            animator.GetCurrentAnimatorStateInfo(0).IsName("walkside2 0") != true)
+        {
+            animator.SetFloat("YMovement", yMove);
+        }
         if(  xMove > 0)
         {
             sr.flipX = false;
