@@ -10,7 +10,12 @@ public class Player : MonoBehaviour
     [SerializeField]
     private float diag_speed;
     private Vector3 input;
+    public Yarn.Unity.Example.NPC collided_npc = null;
 
+
+
+    [SerializeField]
+    private GameObject giveQuestUI; 
     private bool inside_npc_radius = false;
     public string current_npc_startNode = "";
 
@@ -23,17 +28,26 @@ public class Player : MonoBehaviour
     void Start()
     {
         char_cont = this.GetComponent<CharacterController>();
+        giveQuestUI.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
+        
         input = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0);
 
         if (inside_npc_radius && Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log("yo");
             StartNpcDialogue(current_npc_startNode);
+        }
+
+        if (Input.GetKeyDown(KeyCode.G) && collided_npc != null)
+        {
+            Inventory.GetInstance().AddToInventory(collided_npc.GetItemToGive());
+            InvenUI.GetInstance().ShowItem(collided_npc.inventoryIndex);
+
         }
 
     }
@@ -61,7 +75,7 @@ public class Player : MonoBehaviour
             //interaction_bubble.SetActive(true);
 
 
-            Yarn.Unity.Example.NPC collided_npc = collision.gameObject.GetComponent<Yarn.Unity.Example.NPC>();
+            collided_npc = collision.gameObject.GetComponent<Yarn.Unity.Example.NPC>();
             Debug.Log(collided_npc);
             current_npc_startNode = collided_npc.talkToNode;
             //collided_npc.GivePlayerItem();
@@ -77,6 +91,7 @@ public class Player : MonoBehaviour
            // interaction_bubble.SetActive(false);
             inside_npc_radius = false;
             current_npc_startNode = "";
+            collided_npc = null; 
         }
     }
 
@@ -87,5 +102,15 @@ public class Player : MonoBehaviour
             // Kick off the dialogue at this node.
             FindObjectOfType<DialogueRunner>().StartDialogue(startNode);
         }
+    }
+
+    [YarnCommand ("CheckInventory")]
+    public void ShowGiveQuestUI(string item)
+    {
+        if (Inventory.GetInstance().InInventory(item))
+        {
+            giveQuestUI.SetActive(true);
+        }
+        
     }
 }
