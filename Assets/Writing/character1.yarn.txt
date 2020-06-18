@@ -6,165 +6,103 @@ position: 492,237
 Eep!
 
 <<if $B2want is true>>[[Next|BubPart3]]
-<<elif $B1want is true>>[[Next|BubPart2]]
-<<elif $firstB is true>>[[Next|2Bub]]
-<<else>>[[Next|endBub]]
+<<elif $B1want is true>>[[Guess what!|BubPart2]]
+<<elif $firstB is true>>[[Please stop screaming.|Bub2]]
+<<else>>[[Hi?|endBub]]
 <<endif>>
 ===
 title: endBub
 tags: 
 colorID: 0
-position: 206,476
+position: 135,245
 ---
 ...
 <<set $firstB is true>>
 ===
-title: 2Bub
+title: Bub2
 tags: 
 colorID: 0
 position: 638,545
 ---
 Oh, you're less scary this time.
 
-<<if $Bexplain1 is true>>[[Next|BubIdle1]]
-<<else>>[[Next|3Bub]]
+<<if $Bexplain1 is true>>[[Hello!|BubIdle1]]
+<<else>>[[Hi again!|Bub3]]
 <<endif>>
 ===
-title: 3Bub
+title: Bub3
 tags: 
 colorID: 0
-position: 891,530
+position: 893,535
 ---
 I- I'm sorry for shouting at you. Who are you?
 <<set $Bexplain1 to true>>
-[[Mailman!|4Bub]]
+[[Mailman!|Bub4]]
 ===
 title: BubIdle1
 tags: 
 colorID: 0
-position: 229,764
+position: 165,554
 ---
 Hey... did you find any fireflies yet? If that's ok... I can loan you some music if you bring me some...
 ===
 title: WIP
 tags: 
 colorID: 0
-position: 715,-46
+position: 686,-39
 ---
 Work in Progress box! You probably found something for me, thanks!
 
 ===
-title: 4Bub
+title: Bub4
 tags: 
 colorID: 0
-position: 1148,534
+position: 1140,530
 ---
 We-ll, its very nice to meet you. If you need me, I'll just be here... or over there... or over there... or over there....
-[[Next|5Bub]]
-===
-title: 5Bub
-tags: 
-colorID: 0
-position: 1397,536
----
 b-But if you... see any fireflies, could you bring some to me-e? 
-[[Fireflies?|6Bub]]
-===
-title: 6Bub
-tags: 
-colorID: 0
-position: 1647,535
----
 I just need them... for a special project. It gets very dark in my bubble overnight, but I-
-[[Next|7Bub]]
-===
-title: 7Bub
-tags: 
-colorID: 0
-position: 1646,790
----
 I can't go out today to get more, and I feel so bad keeping them multiple nights, but-
-[[Why can't you go get them?|8Bub]]
+[[Why can't you go get them?|Bub8]]
 ===
-title: 8Bub
+title: Bub8
 tags: 
 colorID: 0
-position: 1400,792
+position: 1407,530
 ---
 aAND LEAVE THE BUBBLE?? No one leaves their bubble! Imagine what might happen!
-[[Next|9Bub]]
-===
-title: 9Bub
-tags: 
-colorID: 0
-position: 1151,788
----
 I could die! I could stub my toe on a rock! Spiders could fall from the trees into my hair! Gnomes might eat my shoes!
-[[Next|10Bub]]
-===
-title: 10Bub
-tags: 
-colorID: 0
-position: 896,789
----
 It's safe in my bubble. I'M safe in my bubble. If e-everyone were smart, they'd get a great bubble like me. All I need are some fireflies...
+
 ===
 title: BubPart2
 tags: 
 colorID: 0
-position: 523,1047
+position: 487,856
 ---
 Huh? Oh, you're back!
 
-<<if $Bexplain2 is true>>[[Next|BubIdle2]]
+<<if $Bexplain2 is true>>[[I'm back!|BubIdle2]]
 <<elif $musicdisc is true>>[[Need anything?|BubExp2]]
-<<else>>[[Next|Bub2P1]]
+<<else>>[[Hello!|Bub2P1]]
 ===
 title: Bub2P1
 tags: 
 colorID: 0
-position: 860,1047
+position: 809,856
 ---
 You survived! I mean, you didnt have a bubble or anything. I-I was worried. 
-[[Next|Bub2P2]]
-===
-title: Bub2P2
-tags: 
-colorID: 0
-position: 1102,1054
----
 Wait, what do you have?
-[[Fireflies!|Bub2P3]]
-===
-title: Bub2P3
-tags: 
-colorID: 0
-position: 1345,1053
----
 Oh! those look nice and bright, those will work great!Here, p-put them down, I'll use my bubble powers to get them.
-[[Next|Bub2P4]]
-===
-title: Bub2P4
-tags: 
-colorID: 0
-position: 1589,1052
----
 There we go, these look perfect. Now to just - this will-ttake me a while, but you can come back later if-if you want to chat.
-[[Next|Bub2P5]]
-===
-title: Bub2P5
-tags: 
-colorID: 0
-position: 1600,1297
----
 W-wait! Here, you can take this as thanks. It's a spare copy of my favorite album. I don't need it since I don't have to leave anymore. 
 <<set $musicdisc to true>>
-<<set $
+<<set $B2want to true>>
 ===
 title: BubIdle2
 tags: 
 colorID: 0
-position: 209,1053
+position: 163,888
 ---
 Please don't worry about the string. I-It's not that bad. I'll. I can leave my bubble!
 ...
@@ -173,44 +111,23 @@ I'm not going to leave this bubble. I'll think of something else...
 title: BubExp2
 tags: 
 colorID: 0
-position: 254,1313
+position: 489,1175
 ---
 I lost my twine! My string! I-it should be right here! did I run out?
-[[Why do you need string?|BubE2]]
-===
-title: BubE2
-tags: 
-colorID: 0
-position: 516,1320
----
 Everything is ruined! How am I supposed to make bubble lights without string? 
-[[Next|BubE3]]
-===
-title: BubE3
-tags: 
-colorID: 0
-position: 769,1321
----
-Thanks for all the help-- b-but I should stop wasting your time
-[[Next|BubE4]]
-===
-title: BubE4
-tags: 
-colorID: 0
-position: 1018,1317
----
+Thanks for all the help-- b-but I should stop wasting your time.
 Its-could you find some for me maybe? If not -its fine, I, maybe It'll be easier if I use my hair? Oo, but.. Please don't worry. Just enjoy your afternoon.
 <<set $Bexplain2 to true>>
 ===
 title: BubPart3
 tags: 
 colorID: 0
-position: 938,277
+position: 938,275
 ---
 Ah, it's just you. Stop startling me like that!
 
-<<if $Bwant2 is true>>[[Next|BubEnd2]]
-<<else>>[[Next|BubP3e1]]
+<<if $Bwant2 is true>>[[Tada!|BubEnd2]]
+<<else>>[[What now?|BubP3e1]]
 <<endif>>
 ===
 title: BubP3e1
@@ -219,21 +136,14 @@ colorID: 0
 position: 1205,277
 ---
 W-wait, do you have the string? For me? Thank you so much!
-
-[[Next|BubP3e2]]
-===
-title: BubP3e2
-tags: 
-colorID: 0
-position: 1474,272
----
 Here, take this. You...it'll be useful later. Thanks...
 <<set $Bwant2 to true>>
+
 ===
 title: BubEnd2
 tags: 
 colorID: 0
-position: 1000,-12
+position: 1019,-6
 ---
 I-I still have some work to do, but it is nice to see you again.
 ===
