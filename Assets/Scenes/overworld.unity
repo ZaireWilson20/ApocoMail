@@ -140113,6 +140113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   move_speed: 200
   diag_speed: 100
+  current_npc_startNode: 
   interaction_bubble: {fileID: 0}
 --- !u!95 &1979820739
 Animator:
@@ -140124,7 +140125,7 @@ Animator:
   m_GameObject: {fileID: 1979820736}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5e6c994538a0d0d459159d28f39a5f5a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6898c96ac8d7bf540be1f0ac1250c4ee, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
