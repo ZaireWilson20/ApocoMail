@@ -1,7 +1,7 @@
 title: StartBub
 tags: 
 colorID: 0
-position: 492,237
+position: 833,184
 ---
 Eep!
 
@@ -14,7 +14,7 @@ Eep!
 title: endBub
 tags: 
 colorID: 0
-position: 135,245
+position: 476,192
 ---
 ...
 <<set $firstB is true>>
@@ -22,7 +22,7 @@ position: 135,245
 title: Bub2
 tags: 
 colorID: 0
-position: 638,545
+position: 979,492
 ---
 Oh, you're less scary this time.
 
@@ -33,7 +33,7 @@ Oh, you're less scary this time.
 title: Bub3
 tags: 
 colorID: 0
-position: 893,535
+position: 1234,482
 ---
 I- I'm sorry for shouting at you. Who are you?
 <<set $Bexplain1 to true>>
@@ -42,14 +42,14 @@ I- I'm sorry for shouting at you. Who are you?
 title: BubIdle1
 tags: 
 colorID: 0
-position: 165,554
+position: 506,501
 ---
 Hey... did you find any fireflies yet? If that's ok... I can loan you some music if you bring me some...
 ===
 title: WIP
 tags: 
 colorID: 0
-position: 686,-39
+position: -477,22
 ---
 Work in Progress box! You probably found something for me, thanks!
 
@@ -57,7 +57,7 @@ Work in Progress box! You probably found something for me, thanks!
 title: Bub4
 tags: 
 colorID: 0
-position: 1140,530
+position: 1481,477
 ---
 We-ll, its very nice to meet you. If you need me, I'll just be here... or over there... or over there... or over there....
 b-But if you... see any fireflies, could you bring some to me-e? 
@@ -68,7 +68,7 @@ I can't go out today to get more, and I feel so bad keeping them multiple nights
 title: Bub8
 tags: 
 colorID: 0
-position: 1407,530
+position: 1748,477
 ---
 aAND LEAVE THE BUBBLE?? No one leaves their bubble! Imagine what might happen!
 I could die! I could stub my toe on a rock! Spiders could fall from the trees into my hair! Gnomes might eat my shoes!
@@ -78,7 +78,7 @@ It's safe in my bubble. I'M safe in my bubble. If e-everyone were smart, they'd 
 title: BubPart2
 tags: 
 colorID: 0
-position: 487,856
+position: 828,803
 ---
 Huh? Oh, you're back!
 
@@ -89,7 +89,7 @@ Huh? Oh, you're back!
 title: Bub2P1
 tags: 
 colorID: 0
-position: 809,856
+position: 1150,803
 ---
 You survived! I mean, you didnt have a bubble or anything. I-I was worried. 
 Wait, what do you have?
@@ -102,7 +102,7 @@ W-wait! Here, you can take this as thanks. It's a spare copy of my favorite albu
 title: BubIdle2
 tags: 
 colorID: 0
-position: 163,888
+position: 504,835
 ---
 Please don't worry about the string. I-It's not that bad. I'll. I can leave my bubble!
 ...
@@ -111,7 +111,7 @@ I'm not going to leave this bubble. I'll think of something else...
 title: BubExp2
 tags: 
 colorID: 0
-position: 489,1175
+position: 830,1122
 ---
 I lost my twine! My string! I-it should be right here! did I run out?
 Everything is ruined! How am I supposed to make bubble lights without string? 
@@ -122,7 +122,7 @@ Its-could you find some for me maybe? If not -its fine, I, maybe It'll be easier
 title: BubPart3
 tags: 
 colorID: 0
-position: 938,275
+position: 1279,222
 ---
 Ah, it's just you. Stop startling me like that!
 
@@ -133,7 +133,7 @@ Ah, it's just you. Stop startling me like that!
 title: BubP3e1
 tags: 
 colorID: 0
-position: 1205,277
+position: 1546,224
 ---
 W-wait, do you have the string? For me? Thank you so much!
 Here, take this. You...it'll be useful later. Thanks...
@@ -143,7 +143,124 @@ Here, take this. You...it'll be useful later. Thanks...
 title: BubEnd2
 tags: 
 colorID: 0
-position: 1019,-6
+position: 1360,-59
 ---
 I-I still have some work to do, but it is nice to see you again.
+===
+title: StartWitch
+tags: 
+colorID: 1
+position: -210,354
+---
+Oh ho ho! 
+<<if $wDone is true>>
+    Hohoho! Enjoy your soup.
+<<elif $W2want is true>>
+    Sniff... what's that in your bag? May I see? 
+    [[Give herbs|WitchP3]]
+<<elif $WIdle2 is true>>
+    I can't leave the pot now, I don't want it to boil over. All I need is something to season it with, and then it will be ready. 
+<<elif $secW is true>>
+    Hm...
+    This soup is still missing something. Perhaps some beard hair after all?
+    [[No!|WitchWant2End]]
+<<elif $W1want is true>> 
+    Hm?
+    [[Give meat|WitchP2]]
+<<elif $firstW is true>>
+    Did you change your mind? I still need something to stock up my soup, and the offer to jump in is still open ho ho ho...
+<<else>>
+    A new face in town?
+    It's always great fun to get a new person in the mix. 
+    Hey, you don't have any meat on you, do you? My cauldren needs some to fill out the soup I'm making.
+    You could always take a dip yourself, ho ho ho. It's nice and warm...
+    [[No, thank you!|WitchWant1End]]
+<<endif>>
+===
+title: WitchWant1End
+tags: 
+colorID: 0
+position: -645,304
+---
+No? Your loss.
+<<set $firstW to true>>
+===
+title: WitchP2
+tags: 
+colorID: 0
+position: -111,678
+---
+Oh, some meat! This will work just fine with the soup, although its a shame I don't get to see what mice soup tastes like...
+Here, for your troubles, take this spool of twine. Blue tail here won't leave it alone, so it's best if you take it.
+<<set $secW to true>>
+===
+title: WitchWant2End
+tags: 
+colorID: 0
+position: -664,551
+---
+But what to season it with... hey there dear, if you find anything that would make this soup more interesting, would you bring it here?
+I'll give you some soup for your efforts.
+<<set $WIdle2 to true>>
+===
+title: WitchP3
+tags: 
+colorID: 0
+position: -395,735
+---
+Yes, this is just what I need! A little of this, a pinch of that and...
+Voy-la! A delicious soup worthy of a party. Here, take some for yourself, you've earned it, hohoho. 
+<<set $Wdone to true>>
+===
+title: StartSnake
+tags: 
+colorID: 2
+position: -215,1146
+---
+sssss....?
+<<if $SnakeEnd is true>>
+    sss... zzz ... sss...
+<<elif $S2want to true>>
+    Yesss, you brought some water! May I?
+    [[Give water|SnakeP3]]
+<<elif $S2Idle is true>>
+    So thirsssty...
+<<elif $secS is true>>
+    Mmm, it'sss nice to see you again.
+    It'sss nice and warm here, my favorite nap sspot.
+    The only isssssue iss that it makesss me terribly dehydrated. Would you do me favor?
+    Bring me some water to quench my thirssst, I'm sure I have something that you could ussse.
+    I would really appreciate it.
+    <<set $S2Idle to true>>
+<<elif $S1want is true>>
+    Isss that?
+    [[Give music disc|SnakeP2]]
+<<elif $S1Idle is true>>
+    Did you bring me something to sleep to? No? Ssadnesssss...
+<<else>>
+    Sorry... I've been trying to take a nap all day, but it'sss been too noisssy.
+    You're the new delivery perssson? Good, good. I'm a hunter, and I tend to ssend out the spoilsss of my hunts to people.
+    But now I jussst want to sleep. If only I had something to lisssten to...
+    sssss...
+    <<set $S1Idle to true>>
+<<endif>>
+===
+title: SnakeP2
+tags: 
+colorID: 0
+position: -300,1434
+---
+Oh, a music disssc! That'sss my favorite song. Thank you ssso much, good friend. Here, hear, take ssome of the meat I caught lassst night. Perhapsss it will make a great stew.
+But for now? Ssweet, ssweet sssslumber...
+<<set $secS to true>>
+===
+title: SnakeP3
+tags: 
+colorID: 0
+position: -27,1416
+---
+Sssscrumptioussssss. Thank you ssso much. What to give, what to give...
+All I have are ssome sseassoning I ssscavenged. Here, I cannot ussse it. Apologiessss that it is not anything more.
+Now, to ssssssleep...
+<<set $SnakeEnd to true>>
 ===
