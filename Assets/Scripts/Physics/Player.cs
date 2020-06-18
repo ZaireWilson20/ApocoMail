@@ -11,9 +11,11 @@ public class Player : MonoBehaviour
     private float diag_speed; 
     private Vector3 input;
 
+    public GameObject DiaRunner; 
 
-    public GameObject interaction_bubble; 
-    
+    public GameObject interaction_bubble;
+
+    public bool visited = false; 
 
     private CharacterController char_cont; 
     // Start is called before the first frame update
@@ -26,9 +28,20 @@ public class Player : MonoBehaviour
     void Update()
     {
         input = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0);
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            DiaRunner.GetComponent<Yarn.Unity.DialogueRunner>().StartDialogue("Start");
+
+           
+        }
 
     }
 
+
+    public void NPC_Visited()
+    {
+        visited = true; 
+    }
     private void FixedUpdate()
     {
         if (input.x != 0 && input.y != 0)
