@@ -6,9 +6,9 @@ position: 492,237
 Eep!
 
 <<if $B2want is true>>[[Next|BubPart3]]
-<<elif $B1want is true>>[[Next|BubPart2]]
-<<elif $firstB is true>>[[Next|Bub2]]
-<<else>>[[Next|endBub]]
+<<elif $B1want is true>>[[Guess what!|BubPart2]]
+<<elif $firstB is true>>[[Please stop screaming.|Bub2]]
+<<else>>[[Hi?|endBub]]
 <<endif>>
 ===
 title: endBub
@@ -26,8 +26,8 @@ position: 638,545
 ---
 Oh, you're less scary this time.
 
-<<if $Bexplain1 is true>>[[Next|BubIdle1]]
-<<else>>[[Next|Bub3]]
+<<if $Bexplain1 is true>>[[Hello!|BubIdle1]]
+<<else>>[[Hi again!|Bub3]]
 <<endif>>
 ===
 title: Bub3
@@ -82,9 +82,9 @@ position: 487,856
 ---
 Huh? Oh, you're back!
 
-<<if $Bexplain2 is true>>[[Next|BubIdle2]]
+<<if $Bexplain2 is true>>[[I'm back!|BubIdle2]]
 <<elif $musicdisc is true>>[[Need anything?|BubExp2]]
-<<else>>[[Next|Bub2P1]]
+<<else>>[[Hello!|Bub2P1]]
 ===
 title: Bub2P1
 tags: 
@@ -122,12 +122,12 @@ Its-could you find some for me maybe? If not -its fine, I, maybe It'll be easier
 title: BubPart3
 tags: 
 colorID: 0
-position: 938,277
+position: 938,275
 ---
 Ah, it's just you. Stop startling me like that!
 
-<<if $Bwant2 is true>>[[Next|BubEnd2]]
-<<else>>[[Next|BubP3e1]]
+<<if $Bwant2 is true>>[[Tada!|BubEnd2]]
+<<else>>[[What now?|BubP3e1]]
 <<endif>>
 ===
 title: BubP3e1
