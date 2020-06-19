@@ -90,14 +90,15 @@ Huh? Oh, you're back!
 title: Bub2P1
 tags: 
 colorID: 0
-position: 1150,803
+position: 1148,802
 ---
 You survived! I mean, you didnt have a bubble or anything. I-I was worried. 
 Wait, what do you have?
 Oh! those look nice and bright, those will work great!Here, p-put them down, I'll use my bubble powers to get them.
+<<RemoveItem FireFlies>>
 There we go, these look perfect. Now to just - this will-ttake me a while, but you can come back later if-if you want to chat.
 W-wait! Here, you can take this as thanks. It's a spare copy of my favorite album. I don't need it since I don't have to leave anymore. 
-<<AddItemToInventory MusicDisc S1want>> 
+<< AddItemToInventory MusicDisc S1want>> 
 <<set $musicdisc to true>>
 ===
 title: BubIdle2
@@ -138,6 +139,8 @@ position: 1544,222
 ---
 W-wait, do you have the string? For me? Thank you so much!
 Here, take this. You...it'll be useful later. Thanks...
+<<RemoveItem Twine>> 
+<<AddItemToInventory Mail nada>> 
 <<set $B2done to true>> 
 <<set $Bwant2 to true>>
 ===
@@ -189,11 +192,12 @@ No? Your loss.
 title: WitchP2
 tags: 
 colorID: 0
-position: -111,678
+position: -112,678
 ---
 Oh, some meat! This will work just fine with the soup, although its a shame I don't get to see what mice soup tastes like...
+<<RemoveItem Meat>> 
 Here, for your troubles, take this spool of twine. Blue tail here won't leave it alone, so it's best if you take it.
-<<AddItemToInventory Twine B2want>> 
+<<Twine AddItemToInventory B2want>> 
 <<set $secW to true>>
 ===
 title: WitchWant2End
@@ -208,9 +212,10 @@ I'll give you some soup for your efforts.
 title: WitchP3
 tags: 
 colorID: 0
-position: -388,727
+position: -389,727
 ---
 Yes, this is just what I need! A little of this, a pinch of that and...
+<< RemoveItem Herbs >> 
 Voy-la! A delicious soup worthy of a party. Here, take some for yourself, you've earned it, hohoho. 
 << set $endGame to true>> 
 <<set $Wdone to true>>
@@ -254,8 +259,9 @@ colorID: 0
 position: -306,1434
 ---
 Oh, a music disssc! That'sss my favorite song. Thank you ssso much, good friend. Here, hear, take ssome of the meat I caught lassst night. Perhapsss it will make a great stew.
+<<RemoveItem MusicDisc>> 
 But for now? Ssweet, ssweet sssslumber...
-<<AddItemToInventory Meat W1want>> 
+<<Meat AddItemToInventory W1want>> 
 <<set $secS to true>>
 ===
 title: SnakeP3
@@ -264,9 +270,10 @@ colorID: 0
 position: -27,1416
 ---
 Sssscrumptioussssss. Thank you ssso much. What to give, what to give...
+<<RemoveItem Water>> 
 All I have are ssome sseassoning I ssscavenged. Here, I cannot ussse it. Apologiessss that it is not anything more.
 Now, to ssssssleep...
-<<AddItemToInventory Herbs W2want>> 
+<<Herbs AddItemToInventory W2want>> 
 <<set $SnakeEnd to true>>
 ===
 title: MailStart

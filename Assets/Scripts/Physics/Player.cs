@@ -21,7 +21,9 @@ public class Player : MonoBehaviour
 
 
     public GameObject interaction_bubble;
+    private PickUp collided_pick_up;
 
+    public DialogueUI d_ui; 
 
     private CharacterController char_cont;
     // Start is called before the first frame update
@@ -34,20 +36,39 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        input = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0);
-
-        if (inside_npc_radius && Input.GetKeyDown(KeyCode.Space))
+        if (!GameManager.instance.in_dialogue)
         {
-            Debug.Log("yo");
-            StartNpcDialogue(current_npc_startNode);
-        }
+            input = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0);
 
+
+            if (inside_npc_radius && Input.GetKeyDown(KeyCode.Space))
+            {
+                Debug.Log("yo");
+                StartNpcDialogue(current_npc_startNode);
+                GameManager.instance.in_dialogue = true; 
+            }
+        }
+        else
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                d_ui.MarkLineComplete();
+            }
+        }
+        
+
+        /*
         if (Input.GetKeyDown(KeyCode.G) && collided_npc != null)
         {
             Inventory.GetInstance().AddToInventory(collided_npc.GetItemToGive());
             InvenUI.GetInstance().ShowItem(collided_npc.inventoryIndex);
 
+        }*/
+
+        if(Input.GetKeyDown(KeyCode.Space) && collided_pick_up != null)
+        {
+            collided_pick_up.AddItemToInvenory(collided_pick_up.yarn_var);
+            collided_pick_up.gameObject.SetActive(false);
         }
 
     }
@@ -71,13 +92,22 @@ public class Player : MonoBehaviour
         if (collision.tag == "NPC" || collision.tag == "PickUp")
         {
             //Debug.Log("Colliding with npc");
-            inside_npc_radius = true;
+            
             interaction_bubble.SetActive(true);
 
+            if(collision.tag == "PickUp")
+            {
+                collided_pick_up = collision.GetComponent<PickUp>(); 
+            }
+            else
+            {
+                inside_npc_radius = true;
+                collided_npc = collision.gameObject.GetComponent<Yarn.Unity.Example.NPC>();
+                current_npc_startNode = collided_npc.talkToNode;
+            }
 
-            collided_npc = collision.gameObject.GetComponent<Yarn.Unity.Example.NPC>();
-            Debug.Log(collided_npc);
-            current_npc_startNode = collided_npc.talkToNode;
+
+            
             //collided_npc.GivePlayerItem();
 
         }
@@ -91,7 +121,8 @@ public class Player : MonoBehaviour
             interaction_bubble.SetActive(false);
             inside_npc_radius = false;
             current_npc_startNode = "";
-            collided_npc = null; 
+            collided_npc = null;
+            collided_pick_up = null; 
         }
     }
 
