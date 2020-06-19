@@ -32,6 +32,8 @@ namespace Yarn.Unity.Example {
 
     public class NPC : MonoBehaviour {
 
+        [SerializeField] private Journal _journal;
+
         public string characterName = "";
 
         public string talkToNode = "";
@@ -77,6 +79,7 @@ namespace Yarn.Unity.Example {
 
         public GameObject GetItemToReceive()
         {
+            _journal.index += 1;
             return itemToRecieve;
         }
 
