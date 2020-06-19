@@ -113,4 +113,9 @@ public class Player : MonoBehaviour
         }
         
     }
+
+    public void SetCollidedNPCActive(bool state)
+    {
+        collided_npc.SetProfileActive(state);
+    }
 }

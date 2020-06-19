@@ -38,6 +38,8 @@ namespace Yarn.Unity.Example {
 
         public string itemRecivedNode = "";
 
+        public GameObject npcProfile; 
+
         public int inventoryIndex; 
         [SerializeField]
         private GameObject itemToGive;
@@ -82,6 +84,12 @@ namespace Yarn.Unity.Example {
         {
             return itemToGive; 
         }
+
+        public void SetProfileActive(bool state)
+        {
+            npcProfile.SetActive(state);
+        }
+
     }
 
 }

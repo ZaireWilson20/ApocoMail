@@ -97,7 +97,7 @@ Wait, what do you have?
 Oh! those look nice and bright, those will work great!Here, p-put them down, I'll use my bubble powers to get them.
 There we go, these look perfect. Now to just - this will-ttake me a while, but you can come back later if-if you want to chat.
 W-wait! Here, you can take this as thanks. It's a spare copy of my favorite album. I don't need it since I don't have to leave anymore. 
-<<Twine AddItemToInventory musicdisc>> 
+<<MusicDisc AddItemToInventory S1want>> 
 <<set $musicdisc to true>>
 ===
 title: BubIdle2
@@ -167,7 +167,7 @@ Oh ho ho!
     [[No!|WitchWant2End]]
 <<elseif $W1want is true>> 
     Hm?
-    [[Give meat|WitchP2]]
+    [[Here's your meat!|WitchP2]]
 <<elseif $firstW is true>>
     Did you change your mind? I still need something to stock up my soup, and the offer to jump in is still open ho ho ho...
 <<else>>
@@ -193,6 +193,7 @@ position: -111,678
 ---
 Oh, some meat! This will work just fine with the soup, although its a shame I don't get to see what mice soup tastes like...
 Here, for your troubles, take this spool of twine. Blue tail here won't leave it alone, so it's best if you take it.
+<<Twine AddItemToInventory B2want>> 
 <<set $secW to true>>
 ===
 title: WitchWant2End
@@ -207,10 +208,11 @@ I'll give you some soup for your efforts.
 title: WitchP3
 tags: 
 colorID: 0
-position: -395,735
+position: -388,727
 ---
 Yes, this is just what I need! A little of this, a pinch of that and...
 Voy-la! A delicious soup worthy of a party. Here, take some for yourself, you've earned it, hohoho. 
+<< set $endGame to true>> 
 <<set $Wdone to true>>
 ===
 title: StartSnake
@@ -249,10 +251,11 @@ sssss....?
 title: SnakeP2
 tags: 
 colorID: 0
-position: -300,1434
+position: -306,1434
 ---
 Oh, a music disssc! That'sss my favorite song. Thank you ssso much, good friend. Here, hear, take ssome of the meat I caught lassst night. Perhapsss it will make a great stew.
 But for now? Ssweet, ssweet sssslumber...
+<<Meat AddItemToInventory W1want>> 
 <<set $secS to true>>
 ===
 title: SnakeP3
@@ -263,6 +266,7 @@ position: -27,1416
 Sssscrumptioussssss. Thank you ssso much. What to give, what to give...
 All I have are ssome sseassoning I ssscavenged. Here, I cannot ussse it. Apologiessss that it is not anything more.
 Now, to ssssssleep...
+<<Herbs AddItemToInventory W2want>> 
 <<set $SnakeEnd to true>>
 ===
 title: MailStart
