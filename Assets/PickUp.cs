@@ -28,9 +28,10 @@ public class PickUp : MonoBehaviour
         }
     }
 
-    [YarnCommand("CheckInventory")]
+    [YarnCommand("AddItemToInventory")]
     public void AddItemToInvenory(string varName)
     {
+        Debug.Log("come on");
         yarn_var = "$" + varName; 
         Inventory.GetInstance().AddToInventory(this.gameObject);
 

@@ -72,7 +72,7 @@ public class Player : MonoBehaviour
         {
             //Debug.Log("Colliding with npc");
             inside_npc_radius = true;
-            //interaction_bubble.SetActive(true);
+            interaction_bubble.SetActive(true);
 
 
             collided_npc = collision.gameObject.GetComponent<Yarn.Unity.Example.NPC>();
@@ -88,7 +88,7 @@ public class Player : MonoBehaviour
     {
         if (collision.tag == "NPC" || collision.tag == "PickUp")
         {
-           // interaction_bubble.SetActive(false);
+            interaction_bubble.SetActive(false);
             inside_npc_radius = false;
             current_npc_startNode = "";
             collided_npc = null; 

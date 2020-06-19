@@ -90,14 +90,14 @@ Huh? Oh, you're back!
 title: Bub2P1
 tags: 
 colorID: 0
-position: 1150,803
+position: 1148,802
 ---
 You survived! I mean, you didnt have a bubble or anything. I-I was worried. 
 Wait, what do you have?
 Oh! those look nice and bright, those will work great!Here, p-put them down, I'll use my bubble powers to get them.
 There we go, these look perfect. Now to just - this will-ttake me a while, but you can come back later if-if you want to chat.
 W-wait! Here, you can take this as thanks. It's a spare copy of my favorite album. I don't need it since I don't have to leave anymore. 
-<<MusicDisc AddItemToInventory S1want>> 
+<<musicDisc AddItemToInventory S1want>> 
 <<set $musicdisc to true>>
 ===
 title: BubIdle2

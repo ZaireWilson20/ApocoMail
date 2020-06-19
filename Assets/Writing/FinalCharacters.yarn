@@ -1,0 +1,289 @@
+title: StartBub
+tags: 
+colorID: 6
+position: 833,184
+---
+Eep!
+
+<<if $B2want is true>>[[Next|BubPart3]]
+<<elseif $B1want is true>>[[Guess what!|BubPart2]]
+<<elseif $firstB is true>>[[Please stop screaming.|Bub2]]
+<<else>>[[Hi?|endBub]]
+<<endif>>
+===
+title: endBub
+tags: 
+colorID: 0
+position: 476,192
+---
+...
+<<set $firstB to true>>
+===
+title: Bub2
+tags: 
+colorID: 0
+position: 979,492
+---
+Oh, you're less scary this time.
+
+<<if $Bexplain1 is true>>[[Hello!|BubIdle1]]
+<<else>>[[Hi again!|Bub3]]
+<<endif>>
+===
+title: Bub3
+tags: 
+colorID: 0
+position: 1234,482
+---
+I- I'm sorry for shouting at you. Who are you?
+<<set $Bexplain1 to true>>
+[[Mailman!|Bub4]]
+===
+title: BubIdle1
+tags: 
+colorID: 0
+position: 506,501
+---
+Hey... did you find any fireflies yet? If that's ok... I can loan you some music if you bring me some...
+===
+title: WIP
+tags: 
+colorID: 0
+position: -477,22
+---
+Work in Progress box! You probably found something for me, thanks!
+
+===
+title: Bub4
+tags: 
+colorID: 0
+position: 1481,477
+---
+We-ll, its very nice to meet you. If you need me, I'll just be here... or over there... or over there... or over there....
+b-But if you... see any fireflies, could you bring some to me-e? 
+I just need them... for a special project. It gets very dark in my bubble overnight, but I-
+I can't go out today to get more, and I feel so bad keeping them multiple nights, but-
+[[Why can't you go get them?|Bub8]]
+===
+title: Bub8
+tags: 
+colorID: 0
+position: 1748,490
+---
+aAND LEAVE THE BUBBLE?? No one leaves their bubble! Imagine what might happen!
+I could die! I could stub my toe on a rock! Spiders could fall from the trees into my hair! Gnomes might eat my shoes!
+It's safe in my bubble. I'M safe in my bubble. If e-everyone were smart, they'd get a great bubble like me. All I need are some fireflies...
+
+===
+title: BubPart2
+tags: 
+colorID: 0
+position: 828,803
+---
+Huh? Oh, you're back!
+
+<<if $Bexplain2 is true>>[[I'm back!|BubIdle2]]
+<<elseif $musicdisc is true>>[[Need anything?|BubExp2]]
+<<else>>[[Hello!|Bub2P1]]
+<<endif>>
+===
+title: Bub2P1
+tags: 
+colorID: 0
+position: 1150,803
+---
+You survived! I mean, you didnt have a bubble or anything. I-I was worried. 
+Wait, what do you have?
+Oh! those look nice and bright, those will work great!Here, p-put them down, I'll use my bubble powers to get them.
+There we go, these look perfect. Now to just - this will-ttake me a while, but you can come back later if-if you want to chat.
+W-wait! Here, you can take this as thanks. It's a spare copy of my favorite album. I don't need it since I don't have to leave anymore. 
+<<AddItemToInventory MusicDisc S1want>> 
+<<set $musicdisc to true>>
+===
+title: BubIdle2
+tags: 
+colorID: 0
+position: 504,835
+---
+Please don't worry about the string. I-It's not that bad. I'll. I can leave my bubble!
+...
+I'm not going to leave this bubble. I'll think of something else...
+===
+title: BubExp2
+tags: 
+colorID: 0
+position: 830,1122
+---
+I lost my twine! My string! I-it should be right here! did I run out?
+Everything is ruined! How am I supposed to make bubble lights without string? 
+Thanks for all the help-- b-but I should stop wasting your time.
+Its-could you find some for me maybe? If not -its fine, I, maybe It'll be easier if I use my hair? Oo, but.. Please don't worry. Just enjoy your afternoon.
+<<set $Bexplain2 to true>>
+===
+title: BubPart3
+tags: 
+colorID: 0
+position: 1279,222
+---
+Ah, it's just you. Stop startling me like that!
+
+<<if $B2want is true and $B2done is false>>[[Tada!|BubP3e1]]
+<<else>>[[What now?|BubEnd2]]
+<<endif>>
+===
+title: BubP3e1
+tags: 
+colorID: 0
+position: 1544,222
+---
+W-wait, do you have the string? For me? Thank you so much!
+Here, take this. You...it'll be useful later. Thanks...
+<<set $B2done to true>> 
+<<set $Bwant2 to true>>
+===
+title: BubEnd2
+tags: 
+colorID: 0
+position: 1360,-59
+---
+I-I still have some work to do, but it is nice to see you again.
+===
+title: StartWitch
+tags: 
+colorID: 1
+position: -210,354
+---
+Oh ho ho! 
+<<if $wDone is true>>
+    Hohoho! Enjoy your soup.
+<<elseif $W2want is true>>
+    Sniff... what's that in your bag? May I see? 
+    [[Give herbs|WitchP3]]
+<<elseif $WIdle2 is true>>
+    I can't leave the pot now, I don't want it to boil over. All I need is something to season it with, and then it will be ready. 
+<<elseif $secW is true>>
+    Hm...
+    This soup is still missing something. Perhaps some beard hair after all?
+    [[No!|WitchWant2End]]
+<<elseif $W1want is true>> 
+    Hm?
+    [[Here's your meat!|WitchP2]]
+<<elseif $firstW is true>>
+    Did you change your mind? I still need something to stock up my soup, and the offer to jump in is still open ho ho ho...
+<<else>>
+    A new face in town?
+    It's always great fun to get a new person in the mix. 
+    Hey, you don't have any meat on you, do you? My cauldren needs some to fill out the soup I'm making.
+    You could always take a dip yourself, ho ho ho. It's nice and warm...
+    [[No, thank you!|WitchWant1End]]
+<<endif>>
+===
+title: WitchWant1End
+tags: 
+colorID: 0
+position: -645,304
+---
+No? Your loss.
+<<set $firstW to true>>
+===
+title: WitchP2
+tags: 
+colorID: 0
+position: -111,678
+---
+Oh, some meat! This will work just fine with the soup, although its a shame I don't get to see what mice soup tastes like...
+Here, for your troubles, take this spool of twine. Blue tail here won't leave it alone, so it's best if you take it.
+<<AddItemToInventory Twine B2want>> 
+<<set $secW to true>>
+===
+title: WitchWant2End
+tags: 
+colorID: 0
+position: -664,551
+---
+But what to season it with... hey there dear, if you find anything that would make this soup more interesting, would you bring it here?
+I'll give you some soup for your efforts.
+<<set $WIdle2 to true>>
+===
+title: WitchP3
+tags: 
+colorID: 0
+position: -388,727
+---
+Yes, this is just what I need! A little of this, a pinch of that and...
+Voy-la! A delicious soup worthy of a party. Here, take some for yourself, you've earned it, hohoho. 
+<< set $endGame to true>> 
+<<set $Wdone to true>>
+===
+title: StartSnake
+tags: 
+colorID: 2
+position: -215,1146
+---
+sssss....?
+<<if $SnakeEnd is true>>
+    sss... zzz ... sss...
+<<elseif $S2want is true>>
+    Yesss, you brought some water! May I?
+    [[Give water|SnakeP3]]
+<<elseif $S2Idle is true>>
+    So thirsssty...
+<<elseif $secS is true>>
+    Mmm, it'sss nice to see you again.
+    It'sss nice and warm here, my favorite nap sspot.
+    The only isssssue iss that it makesss me terribly dehydrated. Would you do me favor?
+    Bring me some water to quench my thirssst, I'm sure I have something that you could ussse.
+    I would really appreciate it.
+    <<set $S2Idle to true>>
+<<elseif $S1want is true>>
+    Isss that?
+    [[Give music disc|SnakeP2]]
+<<elseif $S1Idle is true>>
+    Did you bring me something to sleep to? No? Ssadnesssss...
+<<else>>
+    Sorry... I've been trying to take a nap all day, but it'sss been too noisssy.
+    You're the new delivery perssson? Good, good. I'm a hunter, and I tend to ssend out the spoilsss of my hunts to people.
+    But now I jussst want to sleep. If only I had something to lisssten to...
+    sssss...
+    <<set $S1Idle to true>>
+<<endif>>
+===
+title: SnakeP2
+tags: 
+colorID: 0
+position: -306,1434
+---
+Oh, a music disssc! That'sss my favorite song. Thank you ssso much, good friend. Here, hear, take ssome of the meat I caught lassst night. Perhapsss it will make a great stew.
+But for now? Ssweet, ssweet sssslumber...
+<<AddItemToInventory Meat W1want>> 
+<<set $secS to true>>
+===
+title: SnakeP3
+tags: 
+colorID: 0
+position: -27,1416
+---
+Sssscrumptioussssss. Thank you ssso much. What to give, what to give...
+All I have are ssome sseassoning I ssscavenged. Here, I cannot ussse it. Apologiessss that it is not anything more.
+Now, to ssssssleep...
+<<AddItemToInventory Herbs W2want>> 
+<<set $SnakeEnd to true>>
+===
+title: MailStart
+tags: 
+colorID: 0
+position: -1050,912
+---
+Hey! Hey!
+<<if $endGame is true>>
+    You did it? You did it! You took care of every task given! Every request!
+    And now, to celebrate! A party! Some fun! To take care of you and everyone!
+<<elseif $MailIdle is true>>
+    No rush, no rush! Plenty to still be done!
+<<else>>
+    Welcome to the job!
+    Applications? Nah! You fell through the roof, you're a mailman!	
+    Anyone can be a mailman! So get out there and see what needs deliverin'!
+    <<set $MailIdle to true>>
+<<endif>>
+===

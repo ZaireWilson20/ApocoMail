@@ -1,0 +1,113 @@
+fileFormatVersion: 2
+guid: ab8f55378dbac4f45a1c2c62df4c226f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - FinalCharacters-StartBub-0
+  - FinalCharacters-StartBub-1
+  - FinalCharacters-StartBub-2
+  - FinalCharacters-StartBub-3
+  - FinalCharacters-StartBub-4
+  - FinalCharacters-endBub-5
+  - FinalCharacters-Bub2-6
+  - FinalCharacters-Bub2-7
+  - FinalCharacters-Bub2-8
+  - FinalCharacters-Bub3-9
+  - FinalCharacters-Bub3-10
+  - FinalCharacters-BubIdle1-11
+  - FinalCharacters-WIP-12
+  - FinalCharacters-Bub4-13
+  - FinalCharacters-Bub4-14
+  - FinalCharacters-Bub4-15
+  - FinalCharacters-Bub4-16
+  - FinalCharacters-Bub4-17
+  - FinalCharacters-Bub8-18
+  - FinalCharacters-Bub8-19
+  - FinalCharacters-Bub8-20
+  - FinalCharacters-BubPart2-21
+  - FinalCharacters-BubPart2-22
+  - FinalCharacters-BubPart2-23
+  - FinalCharacters-BubPart2-24
+  - FinalCharacters-Bub2P1-25
+  - FinalCharacters-Bub2P1-26
+  - FinalCharacters-Bub2P1-27
+  - FinalCharacters-Bub2P1-28
+  - FinalCharacters-Bub2P1-29
+  - FinalCharacters-BubIdle2-30
+  - FinalCharacters-BubIdle2-31
+  - FinalCharacters-BubIdle2-32
+  - FinalCharacters-BubExp2-33
+  - FinalCharacters-BubExp2-34
+  - FinalCharacters-BubExp2-35
+  - FinalCharacters-BubExp2-36
+  - FinalCharacters-BubPart3-37
+  - FinalCharacters-BubPart3-38
+  - FinalCharacters-BubPart3-39
+  - FinalCharacters-BubP3e1-40
+  - FinalCharacters-BubP3e1-41
+  - FinalCharacters-BubEnd2-42
+  - FinalCharacters-StartWitch-43
+  - FinalCharacters-StartWitch-44
+  - FinalCharacters-StartWitch-45
+  - FinalCharacters-StartWitch-46
+  - FinalCharacters-StartWitch-47
+  - FinalCharacters-StartWitch-48
+  - FinalCharacters-StartWitch-49
+  - FinalCharacters-StartWitch-50
+  - FinalCharacters-StartWitch-51
+  - FinalCharacters-StartWitch-52
+  - FinalCharacters-StartWitch-53
+  - FinalCharacters-StartWitch-54
+  - FinalCharacters-StartWitch-55
+  - FinalCharacters-StartWitch-56
+  - FinalCharacters-StartWitch-57
+  - FinalCharacters-StartWitch-58
+  - FinalCharacters-WitchWant1End-59
+  - FinalCharacters-WitchP2-60
+  - FinalCharacters-WitchP2-61
+  - FinalCharacters-WitchWant2End-62
+  - FinalCharacters-WitchWant2End-63
+  - FinalCharacters-WitchP3-64
+  - FinalCharacters-WitchP3-65
+  - FinalCharacters-StartSnake-66
+  - FinalCharacters-StartSnake-67
+  - FinalCharacters-StartSnake-68
+  - FinalCharacters-StartSnake-69
+  - FinalCharacters-StartSnake-70
+  - FinalCharacters-StartSnake-71
+  - FinalCharacters-StartSnake-72
+  - FinalCharacters-StartSnake-73
+  - FinalCharacters-StartSnake-74
+  - FinalCharacters-StartSnake-75
+  - FinalCharacters-StartSnake-76
+  - FinalCharacters-StartSnake-77
+  - FinalCharacters-StartSnake-78
+  - FinalCharacters-StartSnake-79
+  - FinalCharacters-StartSnake-80
+  - FinalCharacters-StartSnake-81
+  - FinalCharacters-StartSnake-82
+  - FinalCharacters-SnakeP2-83
+  - FinalCharacters-SnakeP2-84
+  - FinalCharacters-SnakeP3-85
+  - FinalCharacters-SnakeP3-86
+  - FinalCharacters-SnakeP3-87
+  - FinalCharacters-MailStart-88
+  - FinalCharacters-MailStart-89
+  - FinalCharacters-MailStart-90
+  - FinalCharacters-MailStart-91
+  - FinalCharacters-MailStart-92
+  - FinalCharacters-MailStart-93
+  - FinalCharacters-MailStart-94
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: ab8f55378dbac4f45a1c2c62df4c226f,
+    type: 3}
+  localizations: []
