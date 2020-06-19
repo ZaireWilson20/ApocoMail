@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Yarn.Unity;
 
 public class Inventory : MonoBehaviour
 {
 
     public static Inventory instance = null; 
     private Dictionary<string, UI_Inventory> inventory_dict;
-
+    public InMemoryVariableStorage yarn_variables; 
+    
     [SerializeField]
     private GameObject inv_ui; 
 
@@ -58,7 +60,11 @@ public class Inventory : MonoBehaviour
         ui_inv.name = item.name;
         ui_inv.inv_icon = item.GetComponent<Image>();
         inventory_dict.Add(ui_inv.name, ui_inv);
-        GameObject g = new GameObject();
+
+        yarn_variables.SetValue(item.GetComponent<PickUp>().yarn_var, true);
+
+
+        //GameObject g = new GameObject();
 
 
         //g.AddComponent(typeof(Image));

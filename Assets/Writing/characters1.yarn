@@ -17,7 +17,7 @@ colorID: 0
 position: 476,192
 ---
 ...
-<<set $firstB is true>>
+<<set $firstB to true>>
 ===
 title: Bub2
 tags: 
@@ -68,7 +68,7 @@ I can't go out today to get more, and I feel so bad keeping them multiple nights
 title: Bub8
 tags: 
 colorID: 0
-position: 1748,477
+position: 1748,490
 ---
 aAND LEAVE THE BUBBLE?? No one leaves their bubble! Imagine what might happen!
 I could die! I could stub my toe on a rock! Spiders could fall from the trees into my hair! Gnomes might eat my shoes!
@@ -85,6 +85,7 @@ Huh? Oh, you're back!
 <<if $Bexplain2 is true>>[[I'm back!|BubIdle2]]
 <<elseif $musicdisc is true>>[[Need anything?|BubExp2]]
 <<else>>[[Hello!|Bub2P1]]
+<<endif>>
 ===
 title: Bub2P1
 tags: 
@@ -96,8 +97,8 @@ Wait, what do you have?
 Oh! those look nice and bright, those will work great!Here, p-put them down, I'll use my bubble powers to get them.
 There we go, these look perfect. Now to just - this will-ttake me a while, but you can come back later if-if you want to chat.
 W-wait! Here, you can take this as thanks. It's a spare copy of my favorite album. I don't need it since I don't have to leave anymore. 
+<<Twine AddItemToInventory musicdisc>> 
 <<set $musicdisc to true>>
-<<set $B2want to true>>
 ===
 title: BubIdle2
 tags: 
@@ -126,19 +127,19 @@ position: 1279,222
 ---
 Ah, it's just you. Stop startling me like that!
 
-<<if $Bwant2 is true>>[[Tada!|BubEnd2]]
-<<else>>[[What now?|BubP3e1]]
+<<if $B2want is true and $B2done is false>>[[Tada!|BubP3e1]]
+<<else>>[[What now?|BubEnd2]]
 <<endif>>
 ===
 title: BubP3e1
 tags: 
 colorID: 0
-position: 1546,224
+position: 1544,222
 ---
 W-wait, do you have the string? For me? Thank you so much!
 Here, take this. You...it'll be useful later. Thanks...
+<<set $B2done to true>> 
 <<set $Bwant2 to true>>
-
 ===
 title: BubEnd2
 tags: 
@@ -220,7 +221,7 @@ position: -215,1146
 sssss....?
 <<if $SnakeEnd is true>>
     sss... zzz ... sss...
-<<elseif $S2want to true>>
+<<elseif $S2want is true>>
     Yesss, you brought some water! May I?
     [[Give water|SnakeP3]]
 <<elseif $S2Idle is true>>

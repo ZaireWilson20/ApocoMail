@@ -1,0 +1,114 @@
+fileFormatVersion: 2
+guid: 4237ceeca147c5e4ca23245f0007d1cd
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - characters1-StartBub-0
+  - characters1-StartBub-1
+  - characters1-StartBub-2
+  - characters1-StartBub-3
+  - characters1-StartBub-4
+  - characters1-endBub-5
+  - characters1-Bub2-6
+  - characters1-Bub2-7
+  - characters1-Bub2-8
+  - characters1-Bub3-9
+  - characters1-Bub3-10
+  - characters1-BubIdle1-11
+  - characters1-WIP-12
+  - characters1-Bub4-13
+  - characters1-Bub4-14
+  - characters1-Bub4-15
+  - characters1-Bub4-16
+  - characters1-Bub4-17
+  - characters1-Bub8-18
+  - characters1-Bub8-19
+  - characters1-Bub8-20
+  - characters1-BubPart2-21
+  - characters1-BubPart2-22
+  - characters1-BubPart2-23
+  - characters1-BubPart2-24
+  - characters1-Bub2P1-25
+  - characters1-Bub2P1-26
+  - characters1-Bub2P1-27
+  - characters1-Bub2P1-28
+  - characters1-Bub2P1-29
+  - characters1-BubIdle2-30
+  - characters1-BubIdle2-31
+  - characters1-BubIdle2-32
+  - characters1-BubExp2-33
+  - characters1-BubExp2-34
+  - characters1-BubExp2-35
+  - characters1-BubExp2-36
+  - characters1-BubPart3-37
+  - characters1-BubPart3-38
+  - characters1-BubPart3-39
+  - characters1-BubP3e1-40
+  - characters1-BubP3e1-41
+  - characters1-BubEnd2-42
+  - characters1-StartWitch-43
+  - characters1-StartWitch-44
+  - characters1-StartWitch-45
+  - characters1-StartWitch-46
+  - characters1-StartWitch-47
+  - characters1-StartWitch-48
+  - characters1-StartWitch-49
+  - characters1-StartWitch-50
+  - characters1-StartWitch-51
+  - characters1-StartWitch-52
+  - characters1-StartWitch-53
+  - characters1-StartWitch-54
+  - characters1-StartWitch-55
+  - characters1-StartWitch-56
+  - characters1-StartWitch-57
+  - characters1-StartWitch-58
+  - characters1-WitchWant1End-59
+  - characters1-WitchP2-60
+  - characters1-WitchP2-61
+  - characters1-WitchWant2End-62
+  - characters1-WitchWant2End-63
+  - characters1-WitchP3-64
+  - characters1-WitchP3-65
+  - characters1-StartSnake-66
+  - characters1-StartSnake-67
+  - characters1-StartSnake-68
+  - characters1-StartSnake-69
+  - characters1-StartSnake-70
+  - characters1-StartSnake-71
+  - characters1-StartSnake-72
+  - characters1-StartSnake-73
+  - characters1-StartSnake-74
+  - characters1-StartSnake-75
+  - characters1-StartSnake-76
+  - characters1-StartSnake-77
+  - characters1-StartSnake-78
+  - characters1-StartSnake-79
+  - characters1-StartSnake-80
+  - characters1-StartSnake-81
+  - characters1-StartSnake-82
+  - characters1-SnakeP2-83
+  - characters1-SnakeP2-84
+  - characters1-SnakeP3-85
+  - characters1-SnakeP3-86
+  - characters1-SnakeP3-87
+  - characters1-MailStart-88
+  - characters1-MailStart-89
+  - characters1-MailStart-90
+  - characters1-MailStart-91
+  - characters1-MailStart-92
+  - characters1-MailStart-93
+  - characters1-MailStart-94
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: "Error on line 88 at position 1:\nmismatched input '==='
+    expecting COMMAND_START\r\n===\r\r\n^^^"
+  baseLanguage: {fileID: 7128917941130120860, guid: 4237ceeca147c5e4ca23245f0007d1cd,
+    type: 3}
+  localizations: []
