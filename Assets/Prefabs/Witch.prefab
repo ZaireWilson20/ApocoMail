@@ -95,6 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3419b57eb638f44db88701b5b33b8af8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _journal: {fileID: 0}
   characterName: Witch
   talkToNode: StartWitch
   itemRecivedNode: Bub.Received
