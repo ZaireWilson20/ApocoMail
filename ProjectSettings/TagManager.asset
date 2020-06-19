@@ -45,3 +45,6 @@ TagManager:
   - name: tiles
     uniqueID: 2792289849
     locked: 0
+  - name: tree
+    uniqueID: 462414681
+    locked: 0
